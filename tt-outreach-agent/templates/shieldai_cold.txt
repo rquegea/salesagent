@@ -1,0 +1,18 @@
+Genera un cold email en español para {first_name} {last_name}, {job_title} en {company_name} ({country}, empresa de {company_domain}).
+
+Producto: {product_description}
+
+Reglas importantes:
+- Máximo 5 líneas de cuerpo (sin contar saludo ni firma)
+- Primera línea: hook personalizado a su cargo/industria, sin peloteo
+- Tono directo y profesional, sin buzzwords ni "en el panorama actual"
+- CTA = responder al email o reservar 15 min: {calendly_url}
+- Firma: Rodrigo Quesada · Director Nuevos Negocios · Truco y Trufa
+- NO incluir asunto genérico tipo "Propuesta" — que sea específico
+- Incluir opción de baja GDPR: "Si prefieres no recibir más emails, responde 'baja'"
+
+El email debe ser conciso, directo y relevante. No hagas cumplidos genéricos.
+
+Responde SOLO con el email en este formato exacto:
+SUBJECT: [asunto aquí]
+BODY: [cuerpo aquí]

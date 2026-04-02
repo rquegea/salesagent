@@ -1,0 +1,18 @@
+Genera el ÚLTIMO follow-up email en español para {first_name} {last_name}, {job_title} en {company_name}.
+
+Este es el SEGUNDO follow-up, probablemente el último contacto.
+
+Producto: {product_description}
+
+Reglas importantes:
+- Máximo 3 líneas de cuerpo
+- Tono: "último mensaje" (educado, sin ser pesado)
+- Nuevo ángulo: reconoce que quizás no es prioridad ahora
+- Ejemplo: "Último mensaje — si no es prioridad ahora, lo entiendo. Dejo el enlace por si acaso"
+- NO sonar desesperado ni repetitivo
+- CTA simple: "Si quieres hablar, aquí el link: {calendly_url}"
+- Firma: Rodrigo Quesada · Director Nuevos Negocios · Truco y Trufa
+
+Responde SOLO con el email en este formato exacto:
+SUBJECT: [asunto aquí]
+BODY: [cuerpo aquí]

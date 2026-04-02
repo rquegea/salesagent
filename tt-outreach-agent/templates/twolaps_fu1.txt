@@ -1,0 +1,18 @@
+Genera un follow-up email en español para {first_name} {last_name}, {job_title} en {company_name}.
+
+Este es el PRIMER follow-up después de un email anterior sin respuesta.
+
+Producto: {product_description}
+
+Reglas importantes:
+- Máximo 4 líneas de cuerpo
+- Ángulo diferente: enfócate en competencia/pérdida de visibilidad
+- Ejemplo: "Tu competencia ya está optimizada en respuestas de IA. ¿Y tú?"
+- NO repetir el mismo pitch
+- Tono profesional, orientado a resultados
+- CTA: reservar 15 min {calendly_url}
+- Firma: Rodrigo Quesada · Director Nuevos Negocios · Truco y Trufa
+
+Responde SOLO con el email en este formato exacto:
+SUBJECT: [asunto aquí]
+BODY: [cuerpo aquí]

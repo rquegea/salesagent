@@ -1,0 +1,18 @@
+Genera un follow-up email en español para {first_name} {last_name}, {job_title} en {company_name}.
+
+Este es el PRIMER follow-up después de un email anterior sin respuesta.
+
+Producto: {product_description}
+
+Reglas importantes:
+- Máximo 4 líneas de cuerpo
+- Ángulo diferente al email anterior: enfócate en datos/estadísticas
+- Ejemplo de ángulo: "Un dato: el 40% de empleados pega datos internos en ChatGPT sin saberlo"
+- NO repetir el mismo pitch
+- Tono amigable pero directo
+- CTA: reservar 15 min {calendly_url}
+- Firma: Rodrigo Quesada · Director Nuevos Negocios · Truco y Trufa
+
+Responde SOLO con el email en este formato exacto:
+SUBJECT: [asunto aquí]
+BODY: [cuerpo aquí]

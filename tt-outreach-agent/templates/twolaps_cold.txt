@@ -1,0 +1,18 @@
+Genera un cold email en español para {first_name} {last_name}, {job_title} en {company_name} ({country}).
+
+Producto: {product_description}
+
+Reglas importantes:
+- Máximo 5 líneas de cuerpo (sin contar saludo ni firma)
+- Primera línea: hook personalizado a su cargo/industria de marketing
+- Ángulo principal: "¿Sabes cómo aparece tu marca cuando alguien pregunta a ChatGPT?"
+- Tono directo, sin peloteo
+- CTA = responder o reservar 15 min: {calendly_url}
+- Firma: Rodrigo Quesada · Director Nuevos Negocios · Truco y Trufa
+- NO incluir asunto genérico
+
+El email debe ser conciso y relevante para CMOs/Heads of Marketing.
+
+Responde SOLO con el email en este formato exacto:
+SUBJECT: [asunto aquí]
+BODY: [cuerpo aquí]

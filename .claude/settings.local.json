@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:developer.unipile.com)",
+      "WebFetch(domain:docs.unipile.com)",
+      "Bash(git add:*)"
+    ]
+  }
+}
