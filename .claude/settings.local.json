@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:developer.unipile.com)",
       "WebFetch(domain:docs.unipile.com)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m 'Initial commit: T&T Outreach Agent - complete system with Apollo prospector, Claude composer, Unipile sender:*)",
+      "Bash(git push:*)"
     ]
   }
 }

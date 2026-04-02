@@ -8,15 +8,29 @@ Configuración global del T&T Outreach Agent
 
 ICP_SHIELDAI = {
     "person_titles": [
+        # English titles
         "CISO", "Chief Information Security Officer",
         "CTO", "Chief Technology Officer",
+        "CIO", "Chief Information Officer",
         "DPO", "Data Protection Officer",
-        "VP Security", "VP IT", "Head of IT",
+        "VP Security", "VP IT", "VP Engineering",
+        "Head of IT", "Head of Security",
         "Director of Information Security",
-        "IT Security Manager", "Cybersecurity Manager"
+        "IT Security Manager", "Information Security Manager",
+        "Cybersecurity Manager", "IT Manager",
+        "Tech Lead",
+        # Spanish titles (España)
+        "Director de Seguridad", "Director de Seguridad Informática",
+        "Director de TI", "Director de Informática", "Director de Tecnología",
+        "Director de Sistemas", "Director Técnico",
+        "Responsable de Ciberseguridad", "Responsable de Seguridad",
+        "Responsable de IT", "Responsable de Sistemas",
+        "Responsable de Protección de Datos",
+        "Director de Protección de Datos", "DPD",
+        "Gerente de Sistemas", "Jefe de IT"
     ],
     "employee_ranges": ["25-50", "51-200", "201-500"],
-    "person_locations": ["Spain", "Mexico", "Colombia", "Argentina", "Chile"],
+    "person_locations": ["Spain"],  # ONLY Spain, not other countries
     "q_keywords": "",
 }
 

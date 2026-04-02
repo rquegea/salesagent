@@ -170,12 +170,18 @@ def find_new_prospects(product, limit=None):
             last_name = person.get("last_name", "")
             job_title = person.get("title", "")
             linkedin_url = person.get("linkedin_url", "")
+            country = person.get("country", "")
+            city = person.get("city", "")
+
+            # CLIENT-SIDE FILTERING: Only Spain (Apollo API doesn't support location filter)
+            icp_locations = get_icp_config(product).get("person_locations", [])
+            if country and country not in icp_locations:
+                logger.debug(f"Skipping {first_name} {last_name}: country={country} not in {icp_locations}")
+                continue
 
             # Company data from organization in original search result
             company_name = prospect.get("organization", {}).get("name", "")
             company_domain = prospect.get("organization", {}).get("domain", "")
-            country = prospect.get("country", "")
-            city = prospect.get("city", "")
 
             # Fallback to enriched organization data if available
             if not company_name and person.get("organization_name"):
@@ -198,7 +204,7 @@ def find_new_prospects(product, limit=None):
 
             if prospect_id:
                 new_count += 1
-                logger.info(f"✓ New prospect: {first_name} {last_name} ({email}) - {job_title}")
+                logger.info(f"✓ New prospect: {first_name} {last_name} ({email}) - {job_title} - {city}, {country}")
 
         except Exception as e:
             logger.error(f"Error processing prospect {apollo_id}: {e}")
